@@ -132,8 +132,10 @@ flask-caching==2.3.1
     # via apache-superset (pyproject.toml)
 flask-compress==1.17
     # via apache-superset (pyproject.toml)
-flask-cors==4.0.1
-    # via apache-superset (pyproject.toml)
+flask-cors==5.0.0
+    # via
+    #   -r requirements/base.in
+    #   apache-superset (pyproject.toml)
 flask-jwt-extended==4.7.1
     # via flask-appbuilder
 flask-limiter==3.12
@@ -274,6 +276,7 @@ packaging==25.0
     #   gunicorn
     #   kombu
     #   limits
+    #   marshmallow
     #   shillelagh
 pandas==2.3.3
     # via apache-superset (pyproject.toml)
@@ -475,7 +478,6 @@ werkzeug==3.1.6
     #   -r requirements/base.in
     #   flask
     #   flask-appbuilder
-    #   flask-cors
     #   flask-jwt-extended
     #   flask-login
 wrapt==1.17.2
