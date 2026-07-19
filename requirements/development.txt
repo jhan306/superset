@@ -280,7 +280,7 @@ flask-compress==1.17
     # via
     #   -c requirements/base-constraint.txt
     #   apache-superset
-flask-cors==6.0.5
+flask-cors==5.0.0
     # via
     #   -c requirements/base-constraint.txt
     #   apache-superset
