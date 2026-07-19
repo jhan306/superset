@@ -132,7 +132,7 @@ flask-caching==2.3.1
     # via apache-superset (pyproject.toml)
 flask-compress==1.17
     # via apache-superset (pyproject.toml)
-flask-cors==6.0.5
+flask-cors==4.0.1
     # via apache-superset (pyproject.toml)
 flask-jwt-extended==4.7.1
     # via flask-appbuilder
@@ -226,7 +226,7 @@ markupsafe==3.0.2
     #   mako
     #   werkzeug
     #   wtforms
-marshmallow==4.3.0
+marshmallow==3.20.1
     # via
     #   apache-superset (pyproject.toml)
     #   flask-appbuilder
@@ -236,7 +236,7 @@ marshmallow-sqlalchemy==1.5.0
     # via
     #   -r requirements/base.in
     #   flask-appbuilder
-marshmallow-union==0.1.15.post1
+marshmallow-union==0.1.15
     # via apache-superset (pyproject.toml)
 mdurl==0.1.2
     # via markdown-it-py
@@ -285,7 +285,7 @@ parsedatetime==2.6
     # via apache-superset (pyproject.toml)
 pgsanity==0.2.9
     # via apache-superset (pyproject.toml)
-pillow==12.2.0
+pillow==10.1.0
     # via apache-superset (pyproject.toml)
 platformdirs==4.3.8
     # via requests-cache
@@ -314,7 +314,7 @@ pydantic-core==2.33.2
     # via pydantic
 pygeohash==3.2.2
     # via apache-superset (pyproject.toml)
-pygments==2.20.0
+pygments==2.14.0
     # via rich
 pyjwt==2.13.0
     # via
