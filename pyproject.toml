@@ -48,7 +48,7 @@ dependencies = [
     "click>=8.4.2",
     "click-option-group",
     "colorama",
-    "flask-cors>=4.0.0, <7.0",
+    "flask-cors>=5.0.0, <7.0",
     "croniter>=6.2.2",
     "cron-descriptor",
     "cryptography>=49.0.0, <50.0.0",
