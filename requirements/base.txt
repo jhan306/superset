@@ -140,7 +140,7 @@ flask-caching==2.3.1
     # via apache-superset (pyproject.toml)
 flask-compress==1.17
     # via apache-superset (pyproject.toml)
-flask-cors==5.0.0
+flask-cors==4.0.1
     # via
     #   -r requirements/base.in
     #   apache-superset (pyproject.toml)
